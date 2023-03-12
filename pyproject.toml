@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kyuukei"
+version = "0.1.0"
+description = ""
+authors = ["Marce Coll <marce@dziban.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.94.0"
+grpcio = "^1.51.3"
+bytecode = "^0.14.0"
+wavedrom = "^2.0.3.post3"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
