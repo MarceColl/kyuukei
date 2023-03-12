@@ -11,9 +11,14 @@ fastapi = "^0.94.0"
 grpcio = "^1.51.3"
 bytecode = "^0.14.0"
 wavedrom = "^2.0.3.post3"
+grpcio-tools = "^1.51.3"
+pysimdjson = "^5.0.2"
+aiohttp = "^3.8.4"
 
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.11.0"
+isort = "^5.12.0"
+black = "^23.1.0"
 
 [build-system]
 requires = ["poetry-core"]

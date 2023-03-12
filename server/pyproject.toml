@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kyuukei-server"
+version = "0.1.0"
+description = ""
+authors = ["Marce Coll <marce@dziban.net>"]
+readme = "README.md"
+packages = [{include = "kyuukei_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.94.0"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.11.0"
+black = "^23.1.0"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
